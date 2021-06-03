@@ -1,0 +1,102 @@
+.removeCard {
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+}
+
+.removeCard:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2) rotate(90deg);
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: auto;
+  cursor: pointer;
+  margin: auto;
+  float: right;
+}
+
+.headerCard {
+  display: inline-flex;
+  margin: 0 !important;
+  width: 100%;
+  height: 90px !important;
+}
+/* Left Header*/
+.headerCardLeftSection {
+  background-color: #000;
+  color: white;
+}
+
+/* Middle Header*/
+.headerCardMiddleSection {
+  padding: 0;
+  text-align: left;
+  background-color: #000;
+}
+
+/* Right Header */
+.headerCardRightSection {
+  background-color: #000;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 1 !important;
+}
+.rankIcon {
+  position: absolute;
+  /* width: 350px !important;
+  height: 350px !important; */
+  transform: translate(-25px, 80px) !important;
+  opacity: 0.2;
+  z-index: 0 !important;
+}
+
+.playerName {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  z-index: 20;
+}
+
+.rankName {
+  padding-bottom: 2px;
+  margin: 0 !important;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.rankNumber {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 20 !important;
+}
+
+@media only screen and (max-width: 648px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: red !important; */
+    max-width: 220px;
+  }
+  .rankIcon {
+    transform: translate(-43px, 80px) !important;
+  }
+  .playerName {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 411px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: blue !important; */
+    max-width: 165px;
+  }
+  .rankIcon {
+    width: 180px;
+    height: 180px;
+    transform: translate(-13px, 100px) !important;
+  }
+}

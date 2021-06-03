@@ -1,0 +1,91 @@
+.cardContainer {
+  text-align: center !important;
+  margin: auto;
+}
+
+.mainContainer {
+  text-align: center !important;
+}
+
+.playerName {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.textField-mu h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.inputField {
+  width: 200px;
+  height: 32px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submitButton {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 40px;
+  background-color: rgb(252, 192, 62) !important;
+}
+
+button {
+  color: white;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none !important;
+}
+
+button:focus {
+  outline: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+.textField-mu {
+  display: 'flex';
+  flex-wrap: 'wrap';
+}
+.MuiFormControl-fullWidth {
+  width: 300px !important;
+}
+
+.MuiInputLabel-root {
+  color: white !important;
+}
+
+.MuiInput-input {
+  font-size: 30px !important;
+}
+
+.MuiInput-underline:after {
+  color: white !important;
+  border-bottom: 2px solid white !important;
+}
+
+#standard-full-width {
+  color: white !important;
+  opacity: 1;
+  z-index: 100 !important;
+  position: relative;
+}

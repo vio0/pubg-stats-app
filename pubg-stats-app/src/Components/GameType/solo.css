@@ -1,0 +1,24 @@
+.noData {
+  min-height: 240px;
+}
+.currentGameType {
+  min-height: 280px;
+}
+
+.middle {
+  padding-top: 70px;
+  color: rgb(255, 234, 0);
+}
+
+.statsGrid {
+  display: flex;
+  font-size: 14px;
+}
+
+.maxValue {
+  color: greenyellow;
+}
+
+.tie {
+  color: orange;
+}

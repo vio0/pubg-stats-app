@@ -1,0 +1,129 @@
+.card {
+  width: 260px;
+  max-width: 260px;
+  max-height: 380px;
+  opacity: 1;
+  padding: 5px;
+  margin: auto;
+  background-color: rgb(41, 41, 41) !important;
+  color: white !important;
+  overflow: hidden;
+}
+
+li {
+  height: 400px;
+}
+
+.header {
+  background-color: lightBlue;
+  border-radius: 0px;
+  margin: 0px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.headLeft {
+  border-radius: 0px;
+  margin: 0px;
+  height: 90px;
+  z-index: 10 !important;
+  text-align: center;
+}
+
+.removeCard {
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+}
+
+.removeCard:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.7) rotate(90deg);
+  border: 2px solid rgb(238, 255, 0) !important;
+  border-radius: 50%;
+  z-index: auto;
+  cursor: pointer;
+  margin: auto;
+  float: right;
+}
+
+.blue {
+  color: blue;
+  transition: all 2s ease-in-out;
+}
+.red {
+  color: red;
+  transform: scale(2);
+}
+
+.fab {
+  margin: auto;
+  top: -15px;
+  border: 1px solid yellow !important;
+}
+
+.fabDiv {
+  background-color: rgb(121, 151, 39);
+  border: 2px solid black;
+  height: 15px;
+}
+
+.gameTypeContainer {
+  margin: 2px !important;
+  width: auto !important;
+}
+.gameType {
+  padding: 2px !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 100 !important;
+}
+.styleTab:hover {
+  background-color: rgb(162, 197, 35);
+  cursor: pointer !important;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.selectedTab {
+  background-color: rgb(30, 100, 128);
+  border: 1px solid yellow;
+}
+.selectedTab:hover {
+  background-color: rgb(162, 197, 35);
+  cursor: pointer !important;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.currentGameType {
+  z-index: 10 !important;
+}
+@media only screen and (max-width: 648px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: red !important; */
+    max-width: 210px;
+  }
+}
+@media only screen and (max-width: 512px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: blue !important; */
+    max-width: 170px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: blue !important; */
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* styles for narrow screens */
+  .card {
+    /* background-color: blue !important; */
+    max-width: 180px !important;
+  }
+}
